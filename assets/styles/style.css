@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    color: brown;
+}
+
+.h2,h3{
+    color: rgb(71, 71, 211);
+}
+
