@@ -5,21 +5,91 @@
     font-family:cursive
 }
 
-h2{
-    color: aliceblue;
-    text-align: center;
-    background-color: black;
-    height: 4vh;
+H1{
+    padding: 1rem;
+    font-style: italic;
 }
 
 nav{
     text-align: right;
+    height: 24rem;
+    width: 100%;
+    background-image: url(../img/design2_image1.jpg);
+    background-size: cover;
+    padding: 0,5rem;
 }
 
-.banner{
+nav>a{
+    display: inline-block;
+    color: aliceblue;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2px;
+    background-color: rgb(25, 95, 187);
+    margin-right: 5px;
+    margin-top: -1rem;
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    text-decoration: none;    
+}
+
+a:hover{
+    background-color:  rgb(9, 40, 80);
+}
+
+a:active{
+    background-color: darkgreen;
+}
+
+a[href="#"]{
+    background-color: darkgreen;
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(126, 21, 21);
+    height: 40px;
+    font-style: italic;
+}
+
+.banner{    
     width: 100%;
 }
 
-#logo{
-    width: 200px;
+h3{
+    font-style: italic;
 }
+
+#logo{
+    width: 100%;
+}
+
+#foto{
+    width: 100%;
+}
+
+article{
+    color: rgb(0, 0, 0);
+    margin-top: 1rem;
+    padding-bottom: 1rem;   
+}
+
+main>section{
+    display: inline-block;
+    margin: 10px;
+}
+
+.colum1{
+    width: 25%;
+    display: inline-block;
+}
+
+.colum2{
+    width: 68%;
+}
+
+
+
+
+
