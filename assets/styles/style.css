@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:cursive
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 H1{
@@ -27,7 +27,7 @@ nav>a{
     background-color: rgb(25, 95, 187);
     margin-right: 5px;
     margin-top: -1rem;
-    width: 6rem;
+    width: 10rem;
     height: 2rem;
     text-align: center;
     text-decoration: none;    
@@ -45,7 +45,7 @@ a[href="#"]{
     background-color: darkgreen;
 }
 
-h2{
+header>h2{
     color: aliceblue;
     text-align: center;
     background-color: rgb(126, 21, 21);
@@ -70,24 +70,32 @@ h3{
 }
 
 article{
-    color: rgb(0, 0, 0);
-    margin-top: 1rem;
     padding-bottom: 1rem;   
 }
 
-main>section{
-    display: inline-block;
+main{
     margin: 10px;
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
 }
 
 .colum1{
     width: 25%;
-    display: inline-block;
+    border: 1px solid red;
 }
 
 .colum2{
-    width: 68%;
+    width: 70%;
+    border: 1px solid green;
 }
+
+li{
+    padding: 5px;
+    margin-left: 5px;
+}
+
+
 
 
 
