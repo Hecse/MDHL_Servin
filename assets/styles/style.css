@@ -1,103 +1,118 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-H1{
-    padding: 1rem;
-    font-style: italic;
-}
-
-nav{
-    text-align: right;
-    height: 24rem;
+header {
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/img/fondo.jpg);
     width: 100%;
-    background-image: url(../img/design2_image1.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    padding: 0,5rem;
 }
 
-nav>a{
-    display: inline-block;
+#logo {
+    width: 15vw;
+    margin: 1rem;
+}
+
+H1 {
+    font-size: 3.7vb;
+    color: rgb(160, 196, 238);
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(9, 40, 80);
+}
+
+nav>a {
+    display: flex;
     color: aliceblue;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 2px;
+    font-size: 1.3vb;
+    font-weight: bolder;
     background-color: rgb(25, 95, 187);
-    margin-right: 5px;
-    margin-top: -1rem;
-    width: 10rem;
-    height: 2rem;
-    text-align: center;
-    text-decoration: none;    
+    width: 8rem;
+    height: 1.7rem;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
 }
 
-a:hover{
-    background-color:  rgb(9, 40, 80);
+a:hover {
+    background-color: rgb(9, 40, 80);
 }
 
-a:active{
+a:active {
     background-color: darkgreen;
 }
 
-a[href="#"]{
+a[href="#"] {
     background-color: darkgreen;
 }
 
-header>h2{
-    color: aliceblue;
+section>h2 {
+    color: white;
     text-align: center;
-    background-color: rgb(126, 21, 21);
+    background-color: rgb(9, 40, 80);
     height: 40px;
     font-style: italic;
 }
 
-.banner{    
+#banner {
     width: 100%;
 }
 
-h3{
+h3 {
     font-style: italic;
 }
 
-#logo{
+#foto {
     width: 100%;
 }
 
-#foto{
-    width: 100%;
+article {
+    padding-bottom: 1rem;
 }
 
-article{
-    padding-bottom: 1rem;   
-}
-
-main{
-    margin: 10px;
+main {
     display: flex;
-    border: 1px solid red;
     justify-content: space-between;
 }
 
-.colum1{
+.colum1 {
     width: 25%;
-    border: 1px solid red;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-.colum2{
+.colum2 {
     width: 70%;
-    border: 1px solid green;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
-li{
+li {
     padding: 5px;
     margin-left: 5px;
 }
 
+table {
+    width: 100%;
+    margin: 1rem 0;
+}
 
+th {
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+}
 
-
-
-
-
+p {
+    margin-bottom: 1rem;
+}
