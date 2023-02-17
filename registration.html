@@ -44,22 +44,22 @@
 
                     <label>
                         Player's First Name:
-                        <input name="FName" type="namber">
+                        <input name="Fname" type="text">
                     </label>
 
                     <label>
                         Last Name:
-                        <input name="LName" type="namber">
+                        <input name="LName" type="text">
                     </label><br>
 
                     <label>
                         Street Address:
-                        <input name="Address" type="namber">
+                        <input name="Address" type="text">
                     </label><br>
 
                     <label>
                         City:
-                        <input name="City" type="namber">
+                        <input name="City" type="text">
                     </label>
 
                     <label>
@@ -75,30 +75,30 @@
                     Gender:
                     <label>
                         Female
-                        <input type="radio" name="Gender" value="f">
+                        <input type="radio" name="Gender" value="F">
                     </label>
 
                     <label>
                         Male
-                        <input type="radio" name="Gender" value="m">
+                        <input type="radio" name="Gender" value="M">
                     </label><br>
 
                     Grade:
                     <label>
                         Pre-School
-                        <input type="radio" name="Grade" value="ps">
-                        1st
-                        <input type="radio" name="Grade" value="1st">
-                        2nd
-                        <input type="radio" name="Grade" value="2nd">
-                        3rd
-                        <input type="radio" name="Grade" value="3rd">
-                        4th
-                        <input type="radio" name="Grade" value="4th">
-                        5th
-                        <input type="radio" name="Grade" value="5th">
+                        <input type="radio" name="Grade" value="0">
                     </label>
 
+                    <label>1st
+                        <input type="radio" name="Grade" value="1st"></label>
+                    <label>2nd
+                        <input type="radio" name="Grade" value="2nd"></label>
+                    <label>3rd
+                        <input type="radio" name="Grade" value="3rd"></label>
+                    <label>4th
+                        <input type="radio" name="Grade" value="4th"></label>
+                    <label>5th
+                        <input type="radio" name="Grade" value="5th"></label>
                 </article>
 
                 <article>
@@ -119,11 +119,14 @@
                     <label>
                         Forward
                         <input type="checkbox" name="Position" value="f">
-                        Defense
+                    </label>
+                    <label>Defense
                         <input type="checkbox" name="Position" value="D">
-                        Midfield
+                    </label>
+                    <label>Midfield
                         <input type="checkbox" name="Position" value="M">
-                        Goalkeeper
+                    </label>
+                    <label>Goalkeeper
                         <input type="checkbox" name="Position" value="G">
                     </label>
                 </article>
@@ -132,13 +135,13 @@
                     <h4>Uniform Size:</h4><br>
                     <label for="size"></label>
                     <select name="Uniform" id="size">
-                        <option value="ys">Youth Smal</option>
-                        <option value="ym">Youth Medium</option>
-                        <option value="yl">Youth Large</option>
-                        <option value="s">Small</option>
-                        <option value="m">Medium</option>
-                        <option value="l">Large</option>
-                        <option value="xl">Extra-Largee</option>
+                        <option value="XS">Youth Smal</option>
+                        <option value="YM">Youth Medium</option>
+                        <option value="YL">Youth Large</option>
+                        <option value="S">Small</option>
+                        <option value="M">Medium</option>
+                        <option value="L">Large</option>
+                        <option value="XL">Extra-Largee</option>
                     </select>
                 </article>
 
@@ -157,11 +160,12 @@
 
                     <label>
                         Parent/Guardian Signature:
-                        <input name="SName" type="namber"><br>
-                        Date:
+                        <input name="SName" type="text"><br>
+                    </label>
+                    <label>Date:
                         <input name="SDate" type="date">
                     </label>
-                    <button>Enviar</button>
+                    <button>Send</button>
                 </article>
             </form>
         </div>
